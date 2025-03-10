@@ -215,7 +215,7 @@ h2{
 
     .aboutme-contenedor{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .aboutme-contenedor .aboutme-info{
