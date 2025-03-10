@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@400;500;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <header class="min-width">
+
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+            <span class="material-icons">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" stroke-width="2"> <path d="M4 6l16 0"></path> <path d="M4 12l16 0"></path> <path d="M4 18l16 0"></path> </svg> 
+            </span>
+        </button>
+
+
+        <h1 class="navbar-title">JesusCostumbre<span>Dev</span></h1>
+
+    <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+    <nav class="navbar-menu">
+        <a href='#about'>Sobre Mi</a>
+        <a href='#servicios'>Servicios</a>
+        <a href='#clientes'>Clientes</a>
+        <a href='#contacto'>Contáctame</a>
+    </nav>
+    </header>
+
+    <section class="hero min-width centrar" id="hero">
+        <div class="info-me">
+            <p>Hola</p>
+            <h2>Soy Jesus Costumbre</h2>
+            <h3>Desarrollador Web Freelance</h3>
+            <p>Atrae clientes, aumenta ventas y mejora tu presencia online.</p>
+            <button class="button-contact">
+                Contactame
+            </button>
+        </div>
+        <div class="hero-svg">
+            <img src="./src/svg/svg-hero.svg" alt="imagen de pagina web">
+        </div>
+
+    </section>
+
+    <section class="technologies">
+        <div class="line">
+            <h2>HTML</h2>
+            <h2>CSS</h2>
+            <h2>JS</h2>
+            <h2>BOOTSTRAP</h2>
+            <h2>SASS</h2>
+            <h2>FIGMA</h2>
+        </div>
+    </section>
+
+    <section id="about" class="about-me"> 
+        <h2>Sobre Mi</h2>
+
+        <div class="centrar aboutme-contenedor">
+
+            <div class="hero-svg">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#F44336" d="M38.2,-54.8C48.3,-45.1,54.7,-32.5,59.6,-19C64.5,-5.5,67.9,8.9,65.8,23.2C63.6,37.5,55.8,51.8,43.9,63C32,74.1,16,82.1,1.6,79.9C-12.8,77.7,-25.6,65.2,-38.6,54.4C-51.6,43.6,-64.8,34.5,-69,22.3C-73.2,10.1,-68.2,-5.3,-61.8,-18.5C-55.3,-31.8,-47.4,-43,-36.8,-52.6C-26.3,-62.2,-13.1,-70.1,0.4,-70.7C14,-71.2,28,-64.5,38.2,-54.8Z" transform="translate(100 100)" />
+                  </svg>                  
+                <img src="src/svg/svg-aboutme.svg" alt="">
+            </div>
+
+            <div class="aboutme-info">
+                <h3>Quien soy</h3>
+                <p>Soy Jesús Costumbre, desarrollador web con experiencia en <strong>HTML, CSS, SASS, JavaScript, Bootstrap, Git y GitHub</strong> . Me especializo en crear sitios web modernos, responsivos y optimizados para ofrecer la mejor experiencia de usuario.
+                    Me apasiona el diseño limpio, la usabilidad y el rendimiento web, ayudando a negocios y emprendedores a mejorar su presencia digital con soluciones efectivas y personalizadas.
+                    Si buscas un sitio atractivo, funcional y optimizado, ¡hablemos y llevemos tu proyecto al siguiente nivel!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-container">
+
+        <h2 class="title-services">Servicios</h2>
+        <div class="services">
+            <div class="item">
+            <span>
+                <img class="icons-services" src="src/svg/design-services.svg" alt="">
+            </span>
+            <h2>Diseño y
+                Desarrollo de Landing Pages</h2>
+            <p>Creamos páginas de aterrizaje altamente efectivas para captar la atención de tus clientes potenciales. Diseñadas a medida para tu negocio, con un enfoque en la conversión y optimización para móviles.</p>
+        </div>
+        <div class="item">
+            <span>
+                <img class="icons-services" src="src/svg/code-blocks.svg" alt="">
+            </span>
+            <h2>Optimización y Mantenimiento de Páginas Web</h2>
+            <p>Optimizo tu sitio web para mejorar su rendimiento, reduciendo tiempos de carga y corrigiendo errores técnicos. También ofrezco mantenimiento continuo para mantener tu página actualizada y segura.</p>
+        </div>
+        <div class="item">
+            <span>
+                <img class="icons-services" src="src/svg/display-settings.svg" alt="">
+            </span>
+            <h2>Desarrollo Web a Medida</h2>
+            <p>Diseño y desarrollo de sitios web completos adaptados a tus necesidades específicas. Desde la estructura básica hasta interacciones avanzadas con JavaScript, garantizando una experiencia de usuario única y fluida.</p>
+        </div>
+        <div class="item">
+            <span>
+                <img class="icons-services" src="src/svg/preview.svg" alt="">
+            </span>
+            <h2>Diseño de Mockups y Prototipos de Páginas Web</h2>
+            <p>Creo prototipos visuales y wireframes de páginas web usando herramientas como Figma, donde puedes ver el diseño y la funcionalidad de tu sitio antes de que sea desarrollado.</p>
+        </div>
+        </div>
+        
+    </section>
+
+    <section class="clients">
+        <h2 class="subtitle">Proyectos</h2>
+        <div class="clients-container">
+            <div class="item-client">
+                <img src="src/img/logo.webp" alt="lodo de cliente">
+                <h2>Sabie Nutricion</h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="sabienutricion.com"></a>
+            </div>
+
+            <div class="item-client">
+                <img src="src/img/logo.webp" alt="lodo de cliente">
+                <h2>Sabie Nutricion</h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="sabienutricion.com"></a>
+            </div>
+
+            <div class="item-client">
+                <img src="src/img/logo.webp" alt="lodo de cliente">
+                <h2>Sabie Nutricion</h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="sabienutricion.com"></a>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section class="packs">
+        <h2 class="subtitle">Paquetes Recomendados</h2>
+        <div class="container-packs">
+            <div class="item-pack">
+                <h2>Paquete Básico  <br> <span>"Presencia Online"</span></h2>
+                <ul>
+                    <li>Diseño de una landing page (1 sola página)</li>
+                    <li>Optimización móvil (responsive design)</li>
+                    <li>Enlace a redes sociales</li>
+                    <li>Hosting y dominio (opcional, con costo adicional)</li>
+                    <li>Entrega en 8-10 días hábiles</li>
+                </ul>
+                <p> <span>Precio Estimado:</span> $1,500.00 MXN - 2,500.00 MXN</p>
+            </div>
+            <div class="item-pack">
+                <h2>Paquete Intermedio <br> <span>"Negocio Digital"</span></h2>
+                <p>Incluye todo lo del paquete básico, más:</p>
+                <ul>
+                    <li>Hasta 5 páginas (Inicio, Servicios, Nosotros, Contacto, Blog, etc.)</li>
+                    <li>Diseño personalizado con CSS avanzado</li>
+                    <li>Formulario de Contacto</li>
+                    <li>Integración de WhatsApp y Google Maps</li>
+                    <li>Galería de imágenes o testimonios</li>
+                    <li>Optimización SEO básica</li>
+                    <li>Entrega en 8-10 días hábiles</li>
+                </ul>
+                <p> <span>Precio Estimado:</span> $3,000.00 MXN - 4,500.00 MXN</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
